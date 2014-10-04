@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface Screen2 : UIViewController
+
 @property (strong, nonatomic) IBOutlet UIImageView *CityPicture;
-- (IBAction)CitySlider:(id)sender;
+@property (strong, nonatomic) IBOutlet UISlider *slider;
+
+- (IBAction)SliderMoved:(id)sender;
 
 @end

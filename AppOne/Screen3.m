@@ -1,18 +1,18 @@
 //
-//  Screen2.m
+//  Screen3.m
 //  AppOne
 //
 //  Created by juan rocha on 10/4/14.
 //  Copyright (c) 2014 JuanRocha. All rights reserved.
 //
 
-#import "Screen2.h"
+#import "Screen3.h"
 
-@interface Screen2 ()
+@interface Screen3 ()
 
 @end
 
-@implementation Screen2
+@implementation Screen3
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -45,9 +45,5 @@
     // Pass the selected object to the new view controller.
 }
 */
-- (IBAction)SliderMoved:(id)sender {
-    self.CityPicture.alpha=self.slider.value;
-
-}
 
 @end

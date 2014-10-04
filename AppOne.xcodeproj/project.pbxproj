@@ -28,6 +28,7 @@
 		B8ED973D19DF86550019B8C5 /* 25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8ED973919DF86550019B8C5 /* 25.jpg */; };
 		B8ED973F19E04E540019B8C5 /* Guadalajara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8ED973E19E04E540019B8C5 /* Guadalajara.jpg */; };
 		B8ED978A19E06C140019B8C5 /* Screen2.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ED978919E06C140019B8C5 /* Screen2.m */; };
+		B8ED978E19E0B3240019B8C5 /* Screen3.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ED978D19E0B3240019B8C5 /* Screen3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		B8ED973E19E04E540019B8C5 /* Guadalajara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Guadalajara.jpg; sourceTree = "<group>"; };
 		B8ED978819E06C140019B8C5 /* Screen2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen2.h; sourceTree = "<group>"; };
 		B8ED978919E06C140019B8C5 /* Screen2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Screen2.m; sourceTree = "<group>"; };
+		B8ED978C19E0B3240019B8C5 /* Screen3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen3.h; sourceTree = "<group>"; };
+		B8ED978D19E0B3240019B8C5 /* Screen3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Screen3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +190,8 @@
 				B8ED978919E06C140019B8C5 /* Screen2.m */,
 				B8BE7F4D19DA74E500BE485B /* Screen1.h */,
 				B8BE7F4E19DA74E500BE485B /* Screen1.m */,
+				B8ED978C19E0B3240019B8C5 /* Screen3.h */,
+				B8ED978D19E0B3240019B8C5 /* Screen3.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 				B8BE7F4F19DA74E500BE485B /* Screen1.m in Sources */,
 				B8BE7F4919DA74E500BE485B /* AppDelegate.m in Sources */,
 				B8ED978A19E06C140019B8C5 /* Screen2.m in Sources */,
+				B8ED978E19E0B3240019B8C5 /* Screen3.m in Sources */,
 				B8BE7F4519DA74E500BE485B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
