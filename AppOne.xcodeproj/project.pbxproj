@@ -22,6 +22,10 @@
 		B8BE7F6219DA74E500BE485B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8BE7F6019DA74E500BE485B /* InfoPlist.strings */; };
 		B8BE7F6419DA74E500BE485B /* AppOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BE7F6319DA74E500BE485B /* AppOneTests.m */; };
 		B8BE7F6F19DA760600BE485B /* 30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BE7F6E19DA760600BE485B /* 30.jpg */; };
+		B8ED973A19DF86550019B8C5 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8ED973619DF86550019B8C5 /* 10.jpg */; };
+		B8ED973B19DF86550019B8C5 /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8ED973719DF86550019B8C5 /* 15.jpg */; };
+		B8ED973C19DF86550019B8C5 /* 20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8ED973819DF86550019B8C5 /* 20.jpg */; };
+		B8ED973D19DF86550019B8C5 /* 25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8ED973919DF86550019B8C5 /* 25.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		B8BE7F6119DA74E500BE485B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B8BE7F6319DA74E500BE485B /* AppOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppOneTests.m; sourceTree = "<group>"; };
 		B8BE7F6E19DA760600BE485B /* 30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 30.jpg; sourceTree = "<group>"; };
+		B8ED973619DF86550019B8C5 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		B8ED973719DF86550019B8C5 /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
+		B8ED973819DF86550019B8C5 /* 20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20.jpg; sourceTree = "<group>"; };
+		B8ED973919DF86550019B8C5 /* 25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 25.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +166,10 @@
 		B8BE7F6D19DA760600BE485B /* images */ = {
 			isa = PBXGroup;
 			children = (
+				B8ED973619DF86550019B8C5 /* 10.jpg */,
+				B8ED973719DF86550019B8C5 /* 15.jpg */,
+				B8ED973819DF86550019B8C5 /* 20.jpg */,
+				B8ED973919DF86550019B8C5 /* 25.jpg */,
 				B8BE7F6E19DA760600BE485B /* 30.jpg */,
 			);
 			name = images;
@@ -240,10 +252,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8ED973C19DF86550019B8C5 /* 20.jpg in Resources */,
+				B8ED973A19DF86550019B8C5 /* 10.jpg in Resources */,
 				B8BE7F6F19DA760600BE485B /* 30.jpg in Resources */,
 				B8BE7F5119DA74E500BE485B /* Images.xcassets in Resources */,
+				B8ED973D19DF86550019B8C5 /* 25.jpg in Resources */,
 				B8BE7F4319DA74E500BE485B /* InfoPlist.strings in Resources */,
 				B8BE7F4C19DA74E500BE485B /* Main.storyboard in Resources */,
+				B8ED973B19DF86550019B8C5 /* 15.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +485,7 @@
 				B8BE7F6919DA74E500BE485B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8BE7F6A19DA74E500BE485B /* Build configuration list for PBXNativeTarget "AppOneTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +494,7 @@
 				B8BE7F6C19DA74E500BE485B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
