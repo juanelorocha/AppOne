@@ -28,9 +28,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    //self.video = [[UIWebView alloc] initWithFrame:CGRectMake(10, 10,300, 200)];
-    //[self.video setAllowsInlineMediaPlayback:YES];
-    //[self.video setMediaPlaybackRequiresUserAction:NO];
+    [self.video setAllowsInlineMediaPlayback:YES];
+    [self.video setMediaPlaybackRequiresUserAction:NO];
     
     [self.view addSubview:self.video];
     

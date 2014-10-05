@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B89DFEE119E0E0FD0025A0FC /* Screen4.m in Sources */ = {isa = PBXBuildFile; fileRef = B89DFEE019E0E0FD0025A0FC /* Screen4.m */; };
+		B89DFEE419E0E2100025A0FC /* atlas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B89DFEE219E0E2100025A0FC /* atlas.jpg */; };
+		B89DFEE519E0E2100025A0FC /* chivas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B89DFEE319E0E2100025A0FC /* chivas.jpg */; };
 		B8BE7F3919DA74E500BE485B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8BE7F3819DA74E500BE485B /* Foundation.framework */; };
 		B8BE7F3B19DA74E500BE485B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8BE7F3A19DA74E500BE485B /* CoreGraphics.framework */; };
 		B8BE7F3D19DA74E500BE485B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8BE7F3C19DA74E500BE485B /* UIKit.framework */; };
@@ -42,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B89DFEDF19E0E0FD0025A0FC /* Screen4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen4.h; sourceTree = "<group>"; };
+		B89DFEE019E0E0FD0025A0FC /* Screen4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Screen4.m; sourceTree = "<group>"; };
+		B89DFEE219E0E2100025A0FC /* atlas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = atlas.jpg; sourceTree = "<group>"; };
+		B89DFEE319E0E2100025A0FC /* chivas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chivas.jpg; sourceTree = "<group>"; };
 		B8BE7F3519DA74E500BE485B /* AppOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8BE7F3819DA74E500BE485B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B8BE7F3A19DA74E500BE485B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -173,6 +180,8 @@
 		B8BE7F6D19DA760600BE485B /* images */ = {
 			isa = PBXGroup;
 			children = (
+				B89DFEE219E0E2100025A0FC /* atlas.jpg */,
+				B89DFEE319E0E2100025A0FC /* chivas.jpg */,
 				B8ED973E19E04E540019B8C5 /* Guadalajara.jpg */,
 				B8ED973619DF86550019B8C5 /* 10.jpg */,
 				B8ED973719DF86550019B8C5 /* 15.jpg */,
@@ -192,6 +201,8 @@
 				B8BE7F4E19DA74E500BE485B /* Screen1.m */,
 				B8ED978C19E0B3240019B8C5 /* Screen3.h */,
 				B8ED978D19E0B3240019B8C5 /* Screen3.m */,
+				B89DFEDF19E0E0FD0025A0FC /* Screen4.h */,
+				B89DFEE019E0E0FD0025A0FC /* Screen4.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -273,12 +284,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8ED973C19DF86550019B8C5 /* 20.jpg in Resources */,
+				B89DFEE419E0E2100025A0FC /* atlas.jpg in Resources */,
 				B8ED973A19DF86550019B8C5 /* 10.jpg in Resources */,
 				B8BE7F6F19DA760600BE485B /* 30.jpg in Resources */,
 				B8BE7F5119DA74E500BE485B /* Images.xcassets in Resources */,
 				B8ED973D19DF86550019B8C5 /* 25.jpg in Resources */,
 				B8BE7F4319DA74E500BE485B /* InfoPlist.strings in Resources */,
 				B8ED973F19E04E540019B8C5 /* Guadalajara.jpg in Resources */,
+				B89DFEE519E0E2100025A0FC /* chivas.jpg in Resources */,
 				B8BE7F4C19DA74E500BE485B /* Main.storyboard in Resources */,
 				B8ED973B19DF86550019B8C5 /* 15.jpg in Resources */,
 			);
@@ -299,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B89DFEE119E0E0FD0025A0FC /* Screen4.m in Sources */,
 				B8BE7F4F19DA74E500BE485B /* Screen1.m in Sources */,
 				B8BE7F4919DA74E500BE485B /* AppDelegate.m in Sources */,
 				B8ED978A19E06C140019B8C5 /* Screen2.m in Sources */,
