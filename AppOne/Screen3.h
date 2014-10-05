@@ -10,4 +10,10 @@
 
 @interface Screen3 : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIWebView *video;
+
+- (IBAction)play:(id)sender;
+
+- (IBAction)stop:(id)sender;
+
 @end

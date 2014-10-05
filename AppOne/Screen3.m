@@ -27,6 +27,32 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //self.video = [[UIWebView alloc] initWithFrame:CGRectMake(10, 10,300, 200)];
+    //[self.video setAllowsInlineMediaPlayback:YES];
+    //[self.video setMediaPlaybackRequiresUserAction:NO];
+    
+    [self.view addSubview:self.video];
+    
+    NSString* embedHTML = [NSString stringWithFormat:@"\
+                           <html>\
+                           <body style='margin:0px;padding:0px;'>\
+                           <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>\
+                           <script type='text/javascript'>\
+                           function onYouTubeIframeAPIReady()\
+                           {\
+                           ytplayer=new YT.Player('playerId',{events:{onReady:onPlayerReady}})\
+                           }\
+                           function onPlayerReady(a)\
+                           { \
+                           a.target.playVideo(); \
+                           }\
+                           </script>\
+                           <iframe id='playerId' type='text/html' width='%d' height='%d' src='http://www.youtube.com/embed/%@?enablejsapi=1&rel=0&playsinline=1&autoplay=1' frameborder='0'>\
+                           </body>\
+                           </html>", 300, 200, @"uWCNUQZvU7M"];
+    [self.video loadHTMLString:embedHTML baseURL:[[NSBundle mainBundle] resourceURL]];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -46,4 +72,33 @@
 }
 */
 
+- (IBAction)play:(id)sender {
+    self.video = [[UIWebView alloc] initWithFrame:CGRectMake(10, 10,300, 200)];
+    [self.video setAllowsInlineMediaPlayback:YES];
+    [self.video setMediaPlaybackRequiresUserAction:NO];
+    
+    [self.view addSubview:self.video];
+    
+    NSString* embedHTML = [NSString stringWithFormat:@"\
+    <html>\
+    <body style='margin:0px;padding:0px;'>\
+    <script type='text/javascript' src='http://www.youtube.com/iframe_api'></script>\
+    <script type='text/javascript'>\
+    function onYouTubeIframeAPIReady()\
+    {\
+    ytplayer=new YT.Player('playerId',{events:{onReady:onPlayerReady}})\
+    }\
+    function onPlayerReady(a)\
+    { \
+    a.target.playVideo(); \
+    }\
+    </script>\
+    <iframe id='playerId' type='text/html' width='%d' height='%d' src='http://www.youtube.com/embed/%@?enablejsapi=1&rel=0&playsinline=1&autoplay=1' frameborder='0'>\
+    </body>\
+    </html>", 300, 200, @"JW5meKfy3fY"];
+    [self.video loadHTMLString:embedHTML baseURL:[[NSBundle mainBundle] resourceURL]];
+}
+
+- (IBAction)stop:(id)sender {
+}
 @end
